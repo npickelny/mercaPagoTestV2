@@ -2,16 +2,16 @@
 default: &default
   adapter: postgresql
   host: localhost
-  username: postgres
-  password: redbull123
+  username: myapp
+  password: myapp
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
-  username: postgres
-  password: redbull123
+  username: myapp
+  password: myapp
   database: mpDev
 
 # Warning: The database defined as "test" will be erased and
@@ -20,11 +20,11 @@ development:
 test:
   <<: *default
   username: myapp
-  password: redbull123
+  password: myapp
   database: mpTest
 
 production:
   <<: *default
-  username: postgres
-  password: redbull123
+  username: myapp
+  password: myapp
   database: mpProd

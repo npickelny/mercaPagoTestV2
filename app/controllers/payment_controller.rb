@@ -7,12 +7,19 @@ class PaymentController < ApplicationController
 
   end
 
-  #
+  #Para pagar la transaccion
+  #en teoria esto congela la plata nada mas
   def paycheckout
 
     #TODO DOTENV/secrets para esta clave, Agregar campo para la descripcion
     puts params[:privateAccessToken]
+
     #CLAVE DEL USER- no la nuestra
+    #usrToken = get_user_token_for_checkout(usrId)
+    # mp = MercadoPago.new(usrToken)
+
+    #ACCESS TOKEN DEL CLIENTE
+    #TODO TOKEN recibido en la auth---permit
     mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
     puts params[:input]
 
@@ -33,7 +40,9 @@ class PaymentController < ApplicationController
     render "payment/status"
   end
 
+
   def capture_payment
+    #TOKEN CLIENTE
     mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
 
     paymentData = Hash[
@@ -46,8 +55,7 @@ class PaymentController < ApplicationController
   end
 
   def cancel_payment
-
-
+    #TOKEN CLIENTE
     mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
 
     paymentData = Hash[
@@ -68,7 +76,6 @@ class PaymentController < ApplicationController
   end
 
   def received_auth
-    # received_auth2(params[:code])
     token = params[:code]
     puts token
     mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
@@ -80,30 +87,42 @@ class PaymentController < ApplicationController
       redirect_uri: "https://www.increasecard.com"
     }
 
-    @auth_response = mp.post("/oauth/token", authData)
-    puts @auth_response
+    auth_response = mp.post("/oauth/token", authData)
+    puts auth_response
+    puts
+    # puts auth_response["response"][:public_key].to_s
 
-    # SETEAR KEYS Y GUARDARLAS EN LA BASE JUNTO CON LA FECHA EN QUE SE PIDIERON
-    # render json: @auth_response
+    @key = auth_response["response"]["public_key"]
+
+    # TODO GUARDAR KEYS
+    # EN LA BASE JUNTO CON LA FECHA EN QUE SE PIDIERON
+    # TODO hacer pantalla "YA PODES OPERAR CON MP" en vez de redireccionar al pos
+    # get_user_key(params[:usr]) o algo asi
+
     render "payment/pos_backup"
   end
 
 
   private
-  def received_auth2(token)
+
+  #This sends the userKey to the frontend
+  def get_user_key(usrId)
     # token = params[:code]
-    puts token
-    mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
 
-    authData = {
-        client_secret: 'TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887', #NUESTRA KEY
-        grant_type: "authorization_code",
-        code: token,
-        redirect_uri: "https://www.increasecard.com"
-    }
+    #BUSCAR EN LA BASE LA KEY DEL USER Y MANDARLA AL FRONT
+    #@key = QUERY BLABLABLA
+    render "payment/pos_backup"
+  end
 
-    @auth_response = mp.post("/oauth/token", authData)
-    puts @auth_response
+  #
+  #
+  #
+  def get_user_token_for_checkout(usrId)
+    # token = params[:code]
+
+    #BUSCAR EN LA BASE LA KEY DEL USER Y MANDARLA AL FRONT
+    #@token = QUERY BLABLABLA
+    #@token
   end
 
 end

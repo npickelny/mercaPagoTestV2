@@ -22,6 +22,7 @@
   </div>
   <!-- Page Content -->
   <div id="page-content-wrapper">
+    <%= @key %>
 
     <div id="Checkout" class="inline">
       <h1>Pos Back-Up</h1>
@@ -122,7 +123,8 @@
         </button>
       </form>
 
-      <%= content_tag :div, class: "temp_information", data: {key: @key} %>
+      <%= content_tag :div, class: "temp_information", data: {key: @key} do %>
+      <%end %>
 
     </div>
   </div>
@@ -130,7 +132,7 @@
 
 <script type="text/javascript">
 
-    Mercadopago.setPublishableKey("TEST-d963c94b-2df8-46dc-92e4-f51cdd0ea719");
+    Mercadopago.setPublishableKey($('.temp_information').data('key'));
 
 
     function addEvent(el, eventName, handler) {
