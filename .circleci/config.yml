@@ -53,11 +53,7 @@ jobs:
 #          name: run rubocop
 #          command: |
 #            bundle exec rubocop app -R
-      deployment:
-        staging:
-          branch: master
-          heroku:
-            appname: stark-dawn-82282
+
 
 
       # collect reports

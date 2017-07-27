@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4b0ab35-0c06-4a11-a8f8-ade546b32011" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state relative-caret-position="612">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#143#244#0" expanded="false" />
                 <element signature="e#575#766#1" expanded="false" />
@@ -936,12 +935,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501013179534</updated>
-      <workItem from="1501013180902" duration="21460000" />
+      <workItem from="1501013180902" duration="21580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21460000" />
+    <option name="totallyTimeSpent" value="21580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1127,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="612">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#143#244#0" expanded="false" />
             <element signature="e#575#766#1" expanded="false" />
