@@ -84,7 +84,7 @@ class PaymentController < ApplicationController
       client_secret: 'TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887', #NUESTRA KEY
       grant_type: "authorization_code",
       code: token,
-      redirect_uri: "https://www.increasecard.com"
+      redirect_uri: "https://stark-dawn-82282.herokuapp.com/payment/received_auth"
     }
 
     auth_response = mp.post("/oauth/token", authData)
