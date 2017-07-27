@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 20170727144958) do
 
   create_table "users", force: :cascade do |t|
     t.integer "mp_user_id", null: false
-    t.string "public_key", null: false
-    t.string "access_token", null: false
-    t.string "refresh_token", null: false
+    t.text "public_key", null: false
+    t.text "access_token", null: false
+    t.text "refresh_token", null: false
     t.integer "expires_in", null: false
     t.date "date_keys_obtained", null: false
     t.datetime "created_at", null: false

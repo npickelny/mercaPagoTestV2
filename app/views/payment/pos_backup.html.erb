@@ -1,4 +1,4 @@
-
+<%= javascript_include_tag "https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js" %>
 <!-- Page Content -->
 <div id="page-content-wrapper">
 <%= @key %>
@@ -11,12 +11,12 @@
     <span class="amex" id="amex"></span>
   </div>
 
-  <form action="/payment/paycheckout" method="post" id="pay" name="pay">
+  <form action="/payment/pay_checkout" method="post" id="pay" name="pay">
     <div class="form-group">
       <label for="PaymentAmount">Total:</label>
 
       <div class="amount-placeholder">
-        <span ><input id="amount" class="form-control" value="100" style="max-width: 50%"/></span>
+        <span ><input id="amount" name="amount" class="form-control" value="100" style="max-width: 50%"/></span>
       </div>
 
     </div>
@@ -80,7 +80,6 @@
       <!--<div class="visa-mc-dis-cvc-preview"></div>-->
       <!--</div>-->
     </div>
-
 
     <div class="email-code-group form-group">
       <label for="email">Email</label>
@@ -340,12 +339,7 @@
             card.setAttribute('name', "token");
             card.setAttribute('type', "hidden");
             card.setAttribute('value', response.id);
-            alert("card token id: " + response.id);
-            var privateToken = document.createElement('input');
-
-            privateToken.setAttribute('name', "privateAccessToken");
-            privateToken.setAttribute('type', "hidden");
-//            privateToken.setAttribute('value', );
+            //alert("card token id: " + response.id);
 
             form.appendChild(card);
             doSubmit = true;
@@ -360,22 +354,4 @@
     cardsHandler();
 
 
-</script>
-
-<script>
-    $(function () {
-        $('[data-toggle="popover"]').popover();
-
-        $('#cvc').on('click', function(){
-            if ( $('.cvc-preview-container').hasClass('hide') ) {
-                $('.cvc-preview-container').removeClass('hide');
-            } else {
-                $('.cvc-preview-container').addClass('hide');
-            }
-        });
-
-        $('.cvc-preview-container').on('click', function(){
-            $(this).addClass('hide');
-        });
-    });
 </script>
