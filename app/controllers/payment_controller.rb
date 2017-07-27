@@ -87,23 +87,38 @@ class PaymentController < ApplicationController
       redirect_uri: "https://stark-dawn-82282.herokuapp.com/payment/received_auth"
     }
 
-    auth_response = mp.post("/oauth/token", authData)
-    puts auth_response
-    puts
-    # puts auth_response["response"][:public_key].to_s
+    # todo - check response status, -> error | or 200
 
-    @key = auth_response["response"]["public_key"]
+    auth_response = mp.post("/oauth/token", authData)
+    handle_response(auth_response)
+  end
+
+
+  private
+
+  def handle_response(auth_data)
+    puts auth_data
+    data = auth_data['response']
+
+    #todo - hacer un if con el status de respuesta
+
+    User.create(
+        access_token: data['access_token'],
+        public_key: data['public_key'],
+        mp_user_id: data['user_id'],
+        expires_in: data['expires_in'],
+        date_keys_obtained: Time.zone.now
+    )
+
+    # @key = auth_data["public_key"]
 
     # TODO GUARDAR KEYS
     # EN LA BASE JUNTO CON LA FECHA EN QUE SE PIDIERON
     # TODO hacer pantalla "YA PODES OPERAR CON MP" en vez de redireccionar al pos
     # get_user_key(params[:usr]) o algo asi
-
-    render "payment/pos_backup"
+    @status_response = auth_data['status']
+    render "payment/auth_response"
   end
-
-
-  private
 
   #This sends the userKey to the frontend
   def get_user_key(usrId)
