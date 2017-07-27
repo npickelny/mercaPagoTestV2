@@ -1,5 +1,9 @@
 # README
 
+[![CircleCI](https://circleci.com/gh/npickelny/mercaPagoTestV2/tree/master.svg?style=svg)](https://circleci.com/gh/npickelny/mercaPagoTestV2/tree/master)
+
+To be completed by Future Nico
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

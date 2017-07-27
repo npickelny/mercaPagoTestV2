@@ -61,8 +61,9 @@ jobs:
           path: /tmp/test-results
           destination: test-results
 
+
 deployment:
   staging:
-    branch: feature/circle_config
+    branch: master
     heroku:
-      appname: ancient-meadow-37163
+      appname: stark-dawn-82282
