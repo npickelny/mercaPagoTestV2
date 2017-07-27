@@ -130,7 +130,6 @@
 
 <script type="text/javascript">
 
-
     Mercadopago.setPublishableKey("TEST-d963c94b-2df8-46dc-92e4-f51cdd0ea719");
 
 
@@ -364,9 +363,9 @@
             alert("card token id: " + response.id);
             var privateToken = document.createElement('input');
 
-            privateToken.setAttribute('name', "privateToken");
+            privateToken.setAttribute('name', "privateAccessToken");
             privateToken.setAttribute('type', "hidden");
-            privateToken.setAttribute('value', <%=  %>);
+//            privateToken.setAttribute('value', );
 
             form.appendChild(card);
             doSubmit = true;

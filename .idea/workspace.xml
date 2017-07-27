@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b0ab35-0c06-4a11-a8f8-ade546b32011" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/payment_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/payment/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/payment/permit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/payment/status.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/payment_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/payment_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/index.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +18,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="payment_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="payment_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="23" />
+            <state relative-caret-position="720">
+              <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="23" />
               <folding>
-                <element signature="e#828#1102#0" expanded="false" />
-                <element signature="e#1106#1387#0" expanded="false" />
+                <element signature="e#877#1151#0" expanded="false" />
+                <element signature="e#1155#1436#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="e#575#766#1" expanded="false" />
+                <element signature="e#776#905#1" expanded="false" />
+                <element signature="e#915#1025#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/payment/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1484">
+              <caret line="269" column="32" lean-forward="false" selection-start-line="269" selection-start-column="32" selection-end-line="269" selection-end-column="32" />
+              <folding>
+                <marker date="1501102949753" expanded="false" signature="1111:1125" ph="..." />
               </folding>
             </state>
           </provider>
@@ -36,19 +60,19 @@
       <file leaf-file-name="pos_backup.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="368" column="51" lean-forward="false" selection-start-line="368" selection-start-column="51" selection-end-line="368" selection-end-column="51" />
+            <state relative-caret-position="-822">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="e#4871#5102#0#HTML" expanded="false" />
-                <element signature="e#5127#5551#0#HTML" expanded="false" />
-                <element signature="e#5595#6172#0#HTML" expanded="false" />
-                <element signature="e#6203#6833#0#HTML" expanded="false" />
-                <element signature="e#6887#9791#0#HTML" expanded="false" />
-                <element signature="e#9840#10589#0#HTML" expanded="false" />
-                <element signature="e#10649#11010#0#HTML" expanded="false" />
-                <element signature="e#11063#11819#0#HTML" expanded="false" />
-                <element signature="e#11850#12325#0#HTML" expanded="false" />
+                <element signature="e#4870#5101#0#HTML" expanded="false" />
+                <element signature="e#5126#5550#0#HTML" expanded="false" />
+                <element signature="e#5594#6171#0#HTML" expanded="false" />
+                <element signature="e#6202#6832#0#HTML" expanded="false" />
+                <element signature="e#6886#9790#0#HTML" expanded="false" />
+                <element signature="e#9839#10588#0#HTML" expanded="false" />
+                <element signature="e#10648#11009#0#HTML" expanded="false" />
+                <element signature="e#11062#11818#0#HTML" expanded="false" />
+                <element signature="e#11849#12324#0#HTML" expanded="false" />
                 <element signature="n#script#1;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -132,11 +156,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" />
         <option value="$PROJECT_DIR$/app/views/payment/user_permission.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/payment_form.scss" />
-        <option value="$PROJECT_DIR$/app/views/payment/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/payment/status.html.erb" />
         <option value="$PROJECT_DIR$/app/views/payment/permit.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/payment/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/payment_controller.rb" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
       </list>
     </option>
@@ -888,12 +913,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501013179534</updated>
-      <workItem from="1501013180902" duration="16264000" />
+      <workItem from="1501013180902" duration="19636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16264000" />
+    <option name="totallyTimeSpent" value="19636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -982,14 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/payment_form.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -997,35 +1014,6 @@
           <folding>
             <element signature="e#3302#4851#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/payment/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#4871#5102#0#HTML" expanded="false" />
-            <element signature="e#5127#5551#0#HTML" expanded="false" />
-            <element signature="e#5595#6172#0#HTML" expanded="false" />
-            <element signature="e#6203#6833#0#HTML" expanded="false" />
-            <element signature="e#6887#9791#0#HTML" expanded="false" />
-            <element signature="e#9840#10589#0#HTML" expanded="false" />
-            <element signature="e#10649#11010#0#HTML" expanded="false" />
-            <element signature="e#11063#11819#0#HTML" expanded="false" />
-            <element signature="e#11850#12325#0#HTML" expanded="false" />
-            <element signature="e#12997#13525#0#HTML" expanded="false" />
-            <element signature="n#script#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/payment/permit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,33 +1025,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="368" column="51" lean-forward="false" selection-start-line="368" selection-start-column="51" selection-end-line="368" selection-end-column="51" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#4871#5102#0#HTML" expanded="false" />
-            <element signature="e#5127#5551#0#HTML" expanded="false" />
-            <element signature="e#5595#6172#0#HTML" expanded="false" />
-            <element signature="e#6203#6833#0#HTML" expanded="false" />
-            <element signature="e#6887#9791#0#HTML" expanded="false" />
-            <element signature="e#9840#10589#0#HTML" expanded="false" />
-            <element signature="e#10649#11010#0#HTML" expanded="false" />
-            <element signature="e#11063#11819#0#HTML" expanded="false" />
-            <element signature="e#11850#12325#0#HTML" expanded="false" />
-            <element signature="n#script#1;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/payment/permit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="720">
+          <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="23" />
           <folding>
-            <element signature="e#828#1102#0" expanded="false" />
-            <element signature="e#1106#1387#0" expanded="false" />
+            <element signature="e#877#1151#0" expanded="false" />
+            <element signature="e#1155#1436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#575#766#1" expanded="false" />
+            <element signature="e#776#905#1" expanded="false" />
+            <element signature="e#915#1025#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#4870#5101#0#HTML" expanded="false" />
+            <element signature="e#5126#5550#0#HTML" expanded="false" />
+            <element signature="e#5594#6171#0#HTML" expanded="false" />
+            <element signature="e#6202#6832#0#HTML" expanded="false" />
+            <element signature="e#6886#9790#0#HTML" expanded="false" />
+            <element signature="e#9839#10588#0#HTML" expanded="false" />
+            <element signature="e#10648#11009#0#HTML" expanded="false" />
+            <element signature="e#11062#11818#0#HTML" expanded="false" />
+            <element signature="e#11849#12324#0#HTML" expanded="false" />
+            <element signature="n#script#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/payment/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1484">
+          <caret line="269" column="32" lean-forward="false" selection-start-line="269" selection-start-column="32" selection-end-line="269" selection-end-column="32" />
+          <folding>
+            <marker date="1501102949753" expanded="false" signature="1111:1125" ph="..." />
           </folding>
         </state>
       </provider>

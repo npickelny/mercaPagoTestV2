@@ -11,14 +11,14 @@ class PaymentController < ApplicationController
   def paycheckout
 
     #TODO DOTENV/secrets para esta clave, Agregar campo para la descripcion
-
+    puts params[:privateAccessToken]
     #CLAVE DEL USER- no la nuestra
     mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
     puts params[:input]
 
     paymentData = {
         transaction_amount: 100,
-        "token" => params[:token],
+        "token" => params[:privateAccessToken],
         "description" => "Title of what you are paying for",
         "installments" => 1,
         "payment_method_id" => "visa",
@@ -68,6 +68,7 @@ class PaymentController < ApplicationController
   end
 
   def received_auth
+    # received_auth2(params[:code])
     token = params[:code]
     puts token
     mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
@@ -82,9 +83,27 @@ class PaymentController < ApplicationController
     @auth_response = mp.post("/oauth/token", authData)
     puts @auth_response
 
-    #SETEAR KEYS Y GUARDARLAS EN LA BASE JUNTO CON LA FECHA EN QUE SE PIDIERON
+    # SETEAR KEYS Y GUARDARLAS EN LA BASE JUNTO CON LA FECHA EN QUE SE PIDIERON
     # render json: @auth_response
     render "payment/pos_backup"
+  end
+
+
+  private
+  def received_auth2(token)
+    # token = params[:code]
+    puts token
+    mp = MercadoPago.new('TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887')
+
+    authData = {
+        client_secret: 'TEST-1668116469106489-071315-9ebd7ee8017a2182ea51cd4f26cced33__LC_LA__-264247887', #NUESTRA KEY
+        grant_type: "authorization_code",
+        code: token,
+        redirect_uri: "https://www.increasecard.com"
+    }
+
+    @auth_response = mp.post("/oauth/token", authData)
+    puts @auth_response
   end
 
 end
