@@ -41,18 +41,18 @@ jobs:
 #      - run: bundle exec rake db:schema:load
 
       # run tests!
-      - run:
-          name: run tests
-          command: |
-            mkdir /tmp/test-results
-            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
-            bundle exec rspec \
-                            "${TEST_FILES}"
-
-      - run:
-          name: run rubocop
-          command: |
-            bundle exec rubocop app -R
+#      - run:
+#          name: run tests
+#          command: |
+#            mkdir /tmp/test-results
+#            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
+#            bundle exec rspec \
+#                            "${TEST_FILES}"
+#
+#      - run:
+#          name: run rubocop
+#          command: |
+#            bundle exec rubocop app -R
 
       # collect reports
       - store_test_results:
