@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4b0ab35-0c06-4a11-a8f8-ade546b32011" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.circleci/config.yml" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,13 +31,14 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding>
-                <element signature="e#231#332#0" expanded="false" />
-                <element signature="e#663#854#1" expanded="false" />
-                <element signature="e#864#993#1" expanded="false" />
-                <element signature="e#1003#1113#1" expanded="false" />
+                <element signature="e#144#245#0" expanded="false" />
+                <element signature="e#503#1737#0" expanded="false" />
+                <element signature="e#576#767#1" expanded="false" />
+                <element signature="e#777#906#1" expanded="false" />
+                <element signature="e#916#1026#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -58,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,20 +79,20 @@
       <file leaf-file-name="pos_backup.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="124" column="71" lean-forward="false" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="71" />
               <folding>
                 <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="e#4868#5099#0#HTML" expanded="false" />
-                <element signature="e#5124#5548#0#HTML" expanded="false" />
-                <element signature="e#5592#6169#0#HTML" expanded="false" />
-                <element signature="e#6200#6830#0#HTML" expanded="false" />
-                <element signature="e#6884#9788#0#HTML" expanded="false" />
-                <element signature="e#9837#10586#0#HTML" expanded="false" />
-                <element signature="e#10646#11007#0#HTML" expanded="false" />
-                <element signature="e#11060#11816#0#HTML" expanded="false" />
-                <element signature="e#11847#12322#0#HTML" expanded="false" />
+                <element signature="e#4945#5176#0#HTML" expanded="false" />
+                <element signature="e#5201#5625#0#HTML" expanded="false" />
+                <element signature="e#5669#6246#0#HTML" expanded="false" />
+                <element signature="e#6277#6907#0#HTML" expanded="false" />
+                <element signature="e#6961#9865#0#HTML" expanded="false" />
+                <element signature="e#9914#10663#0#HTML" expanded="false" />
+                <element signature="e#10723#11084#0#HTML" expanded="false" />
+                <element signature="e#11137#11893#0#HTML" expanded="false" />
+                <element signature="e#11924#12399#0#HTML" expanded="false" />
                 <element signature="n#script#1;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -935,12 +937,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501013179534</updated>
-      <workItem from="1501013180902" duration="21777000" />
+      <workItem from="1501013180902" duration="22858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21777000" />
+    <option name="totallyTimeSpent" value="22858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1047,14 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/payment/permit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1085,6 +1079,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/payment/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1095,30 +1097,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/payment/permit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="124" column="71" lean-forward="false" selection-start-line="124" selection-start-column="71" selection-end-line="124" selection-end-column="71" />
           <folding>
             <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#4868#5099#0#HTML" expanded="false" />
-            <element signature="e#5124#5548#0#HTML" expanded="false" />
-            <element signature="e#5592#6169#0#HTML" expanded="false" />
-            <element signature="e#6200#6830#0#HTML" expanded="false" />
-            <element signature="e#6884#9788#0#HTML" expanded="false" />
-            <element signature="e#9837#10586#0#HTML" expanded="false" />
-            <element signature="e#10646#11007#0#HTML" expanded="false" />
-            <element signature="e#11060#11816#0#HTML" expanded="false" />
-            <element signature="e#11847#12322#0#HTML" expanded="false" />
+            <element signature="e#4945#5176#0#HTML" expanded="false" />
+            <element signature="e#5201#5625#0#HTML" expanded="false" />
+            <element signature="e#5669#6246#0#HTML" expanded="false" />
+            <element signature="e#6277#6907#0#HTML" expanded="false" />
+            <element signature="e#6961#9865#0#HTML" expanded="false" />
+            <element signature="e#9914#10663#0#HTML" expanded="false" />
+            <element signature="e#10723#11084#0#HTML" expanded="false" />
+            <element signature="e#11137#11893#0#HTML" expanded="false" />
+            <element signature="e#11924#12399#0#HTML" expanded="false" />
             <element signature="n#script#1;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -1126,13 +1128,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
           <folding>
-            <element signature="e#231#332#0" expanded="false" />
-            <element signature="e#663#854#1" expanded="false" />
-            <element signature="e#864#993#1" expanded="false" />
-            <element signature="e#1003#1113#1" expanded="false" />
+            <element signature="e#144#245#0" expanded="false" />
+            <element signature="e#503#1737#0" expanded="false" />
+            <element signature="e#576#767#1" expanded="false" />
+            <element signature="e#777#906#1" expanded="false" />
+            <element signature="e#916#1026#1" expanded="false" />
           </folding>
         </state>
       </provider>
