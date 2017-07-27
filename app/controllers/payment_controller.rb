@@ -102,16 +102,18 @@ class PaymentController < ApplicationController
 
     #todo - hacer un if con el status de respuesta
 
-    User.create(
+    if User.find_by(mp_user_id: data['user_id']).nil?
+      User.create(
         access_token: data['access_token'],
         public_key: data['public_key'],
+        refresh_token: data['refresh_token'],
         mp_user_id: data['user_id'],
         expires_in: data['expires_in'],
         date_keys_obtained: Time.zone.now
-    )
+      )
+    end
 
     # @key = auth_data["public_key"]
-
     # TODO GUARDAR KEYS
     # EN LA BASE JUNTO CON LA FECHA EN QUE SE PIDIERON
     # TODO hacer pantalla "YA PODES OPERAR CON MP" en vez de redireccionar al pos
