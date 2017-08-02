@@ -36,6 +36,11 @@ gem 'mercadopago-sdk'
 gem 'json'
 gem 'pg'
 
+#GEMS FOR TODO PAGO
+gem 'rest-client'
+gem 'xml-simple', '~> 1.1', '>= 1.1.5'
+gem 'savon', '~> 2.11.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

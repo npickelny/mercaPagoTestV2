@@ -1,0 +1,2 @@
+module TodopagoHelper
+end

@@ -2,19 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b0ab35-0c06-4a11-a8f8-ade546b32011" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/payment/auth_response.html.erb" afterPath="$PROJECT_DIR$/app/views/registration/authorize.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/payment/index.html.erb" afterPath="$PROJECT_DIR$/app/views/application/index.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/payment/permit.html.erb" afterPath="$PROJECT_DIR$/app/views/registration/permit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/.resultset.json.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/loading_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/favicon_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/favicon_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/favicon_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/.github/issue_template.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/DataProvider.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/DiscoverPaymentMethodsTest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/GetAuthorizeAnswerTest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/GetCredentialsTest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/GetOperationsTest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/MockClient.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/ReturnRequestTest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/SendAuthorizeRequestTest.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/.last_run.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/.resultset.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/test_validations.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/tests_coverage.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/TodoPagoConector.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Authorize.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Classes/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Connectors/RestConnector.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Connectors/ServiceConnector.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Connectors/SoapConnector.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/connection_exception.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/empty_field_exception.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/empty_field_password_exception.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/empty_field_user_exception.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/prueba.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/response_exception.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/FraudControlValidation.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Operations.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/ServiceReferences/Authorize.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/ServiceReferences/EchoService.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/ServiceReferences/Operations.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/Validation/FraudControlValidation.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/config/postalCodes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/config/validations.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/prueba.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/todo_pago_conector.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDK-Ruby-master/lib/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/todopago.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/todopago.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/todopago_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/todopago_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/todopago_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/payment.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/payment.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/payment_form.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/payment_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/payment_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/payment_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +92,8 @@
       <file leaf-file-name="pos_backup.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="253" column="68" lean-forward="true" selection-start-line="253" selection-start-column="68" selection-end-line="253" selection-end-column="68" />
+            <state relative-caret-position="270">
+              <caret line="111" column="68" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="68" />
               <folding>
                 <element signature="e#4567#4991#0#HTML" expanded="false" />
                 <element signature="e#5035#5612#0#HTML" expanded="false" />
@@ -40,21 +103,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
+      <file leaf-file-name="tp_pos_backup.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/registration_controller.rb">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="414">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <marker date="1501173700849" expanded="false" signature="706:720" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/registration_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +169,18 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="77" />
+            <state relative-caret-position="514">
+              <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -121,7 +237,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/payment/user_permission.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -134,7 +249,6 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/payment/permit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/payment_form.scss" />
         <option value="$PROJECT_DIR$/app/views/registration/permit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/registration_controller.rb" />
@@ -142,6 +256,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" />
         <option value="$PROJECT_DIR$/app/views/payment/pos_backup.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/payment_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -182,6 +300,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,6 +396,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1048,12 +1216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501013179534</updated>
-      <workItem from="1501013180902" duration="44422000" />
+      <workItem from="1501013180902" duration="50404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44422000" />
+    <option name="totallyTimeSpent" value="50404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1073,7 +1241,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20323451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14393531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1151,16 +1319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <marker date="1501173700849" expanded="false" signature="706:720" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20170727144958_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1181,14 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1221,22 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="672" column="0" lean-forward="false" selection-start-line="672" selection-start-column="0" selection-end-line="672" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -1283,10 +1417,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/payment_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/todopago_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/registration_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <marker date="1501173700849" expanded="false" signature="706:720" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/payment/pos_backup.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="253" column="68" lean-forward="true" selection-start-line="253" selection-start-column="68" selection-end-line="253" selection-end-column="68" />
+        <state relative-caret-position="270">
+          <caret line="111" column="68" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="68" />
           <folding>
             <element signature="e#4567#4991#0#HTML" expanded="false" />
             <element signature="e#5035#5612#0#HTML" expanded="false" />
@@ -1295,10 +1504,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>

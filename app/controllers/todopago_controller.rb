@@ -1,0 +1,2 @@
+class TodopagoController < ApplicationController
+end
