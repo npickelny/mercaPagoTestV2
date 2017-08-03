@@ -1,0 +1,91 @@
+<script src="https://developers.todopago.com.ar/resources/TPHybridForm-v0.1.js"></script>
+
+<!-- Page Content -->
+<div id="page-content-wrapper">
+  <%= @key %>
+
+  <div id="Checkout" class="inline">
+    <h1>Pos Back-Up</h1>
+    <div class="card-row">
+      <span class="visa" id="visa"></span>
+      <span class="mastercard" id="master"></span>
+      <span class="amex" id="amex"></span>
+    </div>
+
+    <form action="/payment/pay_checkout" method="post" id="pay" name="pay">
+
+      <select id="formaDePagoCbx"></select>
+      <select id="bancoCbx"></select>
+      <select id="promosCbx"></select>
+      <label id="labelPromotionTextId"></label>
+
+      <!-- Para los casos en el que el comercio opera con PEI -->
+      <label id="labelPeiCheckboxId"></label>
+      <input id="peiCbx"/>
+
+      <input id="numeroTarjetaTxt"/>
+      <input id="mesTxt"/>
+      <input id="anioTxt"/>
+      <input id="codigoSeguridadTxt"/>
+      <label id="labelCodSegTextId"></label>
+      <input id="apynTxt"/>
+      <select id="tipoDocCbx"></select>
+      <input id="nroDocTxt"/>
+      <input id="emailTxt"/><br/>
+
+      <!-- Para los casos en el que el comercio opera con PEI -->
+      <label id="labelPeiTokenTextId"></label>
+      <input id="peiTokenTxt"/>
+
+      <button id="MY_btnPagarConBilletera" class="tp-button"/>
+      <button id="MY_btnConfirmarPago"/>
+
+      <button id="PayButton" class="btn btn-block btn-success submit-button" type="submit">
+        <span class="submit-button-lock"></span>
+        <span class="align-middle">Pagar</span>
+      </button>
+
+    </form>
+
+    <%= content_tag :div, class: "temp_information", data: {key: @key} do %>
+    <%end %>
+
+  </div>
+</div>
+
+<script>
+    window.TPFORMAPI.hybridForm.initForm({
+        callbackValidationErrorFunction: 'validationCollector',
+        callbackCustomSuccessFunction: 'customPaymentSuccessResponse',
+        callbackCustomErrorFunction: 'customPaymentErrorResponse',
+        callbackBilleteraFunction: 'billeteraPaymentResponse',
+        botonPagarId: 'MY_btnConfirmarPago',
+        botonPagarConBilleteraId: 'MY_btnPagarConBilletera',
+        modalCssClass: 'modal-class',
+        modalContentCssClass: 'modal-content',
+        beforeRequest: 'initLoading',
+        afterRequest: 'stopLoading'
+    });
+
+    window.TPFORMAPI.hybridForm.setItem({
+        publicKey: '77c43b88fe5540ffac6df5d7152fa2c9', // 'taf08222e-7b32-63d4-d0a6-5cabedrb5782', //obligatorio
+        defaultNombreApellido: 'Usuario',
+        defaultNumeroDoc: 20234211,
+        defaultMail: 'todopago@mail.com',
+        defaultTipoDoc: 'DNI'
+    });
+
+    //callbacks de respuesta del pago
+    function validationCollector(parametros) {
+    }
+    function billeteraPaymentResponse(response) {
+    }
+    function customPaymentSuccessResponse(response) {
+    }
+    function customPaymentErrorResponse(response) {
+    }
+    function initLoading() {
+    }
+    function stopLoading() {
+    }
+</script>

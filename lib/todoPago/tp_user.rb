@@ -2,7 +2,7 @@
 require_relative "Exceptions/empty_field_user_exception"
 require_relative "Exceptions/empty_field_password_exception"
 
-class User
+class TpUser
   
 	attr_accessor :merchant, :apiKey
 	attr_reader :user, :password
@@ -12,16 +12,16 @@ class User
 		@password= password
 	end
 
-    def as_json(options={})
-        {
-            merchant: @merchant,
-            apikey: @apiKey
-        }
-    end
+	def as_json(options={})
+			{
+					merchant: @merchant,
+					apikey: @apiKey
+			}
+	end
 
-    def to_json(*options)
-        as_json(*options).to_json(*options)
-    end
+	def to_json(*options)
+			as_json(*options).to_json(*options)
+	end
 
 	def getData
 		if(@user==nil)

@@ -89,7 +89,11 @@ class TodoPagoConector
   ### GETCREDENTIALS######################################################
   ########################################################################
   def getCredentials(user)
-    return @restConnector.getCredentials(user)
+    begin
+      return @restConnector.getCredentials(user)
+    rescue Exception => response
+      puts response
+    end
   end
 
   ######################################################

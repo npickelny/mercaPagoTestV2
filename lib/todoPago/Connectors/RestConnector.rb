@@ -3,6 +3,7 @@ require 'rest-client'
 require 'json'
 
 require_relative "ServiceConnector"
+require_relative "../Exceptions/response_exception"
 
 class RestConnector < ServiceConnector
 
@@ -26,7 +27,6 @@ class RestConnector < ServiceConnector
 	    url = @credentialsEndPoint + "Credentials"
 	    response = RestClient.post url, user.getData.to_json, :content_type => :json
 	    response = JSON.parse(response)
-
 	    if response['Credentials']['resultado']['codigoResultado'] != 0
 	    	raise ResponseException.new, response
 	    end

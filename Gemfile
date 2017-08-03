@@ -37,9 +37,11 @@ gem 'json'
 gem 'pg'
 
 #GEMS FOR TODO PAGO
-gem 'rest-client'
 gem 'xml-simple', '~> 1.1', '>= 1.1.5'
-gem 'savon', '~> 2.11.1'
+
+git 'https://github.com/TodoPago/SDK-Ruby', :tag => 'V1.7.0' do
+  gem 'TodoPagoConector'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
