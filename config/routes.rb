@@ -11,6 +11,6 @@ Rails.application.routes.draw do
   get 'registration/authorize', :to => 'registration#authorize'
 
   get 'todopago/tp_pos_backup', :to => 'todopago#tp_pos_backup'
-
   get 'todopago/send_auth_req', :to => 'todopago#send_auth_req'
+  get 'todopago/payment_status', to: 'todopago#payment_status'
 end

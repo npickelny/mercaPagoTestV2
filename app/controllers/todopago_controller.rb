@@ -23,7 +23,7 @@ class TodopagoController < ApplicationController
     response = connector.getCredentials(u)
 
     puts connector
-    puts "2222222222222222222222222222222222222222222222222222222222222"
+    puts "-------------------------------------------------"
     puts response
     render json: connector
   end
@@ -33,27 +33,20 @@ class TodopagoController < ApplicationController
   end
 
   def send_auth_req
-
-    j_wsdls = {
-        'Authorize'=> 'https://developers.todopago.com.ar/services/t/1.1/Authorize?wsdl'
-    }
-
-    j_header_http = {
-        "Authorization"=>"PRISMA A793D307441615AF6AAAD7497A75DE59"
-    }
-
+    j_wsdls = { Authorize: 'https://developers.todopago.com.ar/services/t/1.1/Authorize?wsdl' }
+    j_header_http = { Authorization: 'PRISMA A793D307441615AF6AAAD7497A75DE59' }
     end_point = 'https://developers.todopago.com.ar/'
 
     connector = TodoPagoConector.new(j_header_http, j_wsdls, end_point) # End Point, wsdl y http_header provisto por TODO PAGO
 
-    optionsSAR_comercio = Hash.new
-    optionsSAR_comercio[:Security]="77c43b88fe5540ffac6df5d7152fa2c9"
-    optionsSAR_comercio[:Merchant]= "27372"
-    optionsSAR_comercio[:EncodingMethod]="XML"
-    optionsSAR_comercio[:URL_OK]="https://stark-dawn-82282.herokuapp.com/ok/"
-    optionsSAR_comercio[:URL_ERROR]="https://stark-dawn-82282.herokuapp.com/error/"
-    optionsSAR_comercio[:Session]= "ABCDEF-1234-12221-FDE1-00000200"
-
+    optionsSAR_comercio = {
+        Security: '77c43b88fe5540ffac6df5d7152fa2c9',
+        Merchant: '27372',
+        EncodingMethod: 'XML',
+        URL_OK: 'https://stark-dawn-82282.herokuapp.com/todo_pago/status?code=ok',
+        URL_ERROR: 'https://stark-dawn-82282.herokuapp.com/todo_pago/status?code=error',
+        Session: 'ABCDEF-1234-12221-FDE1-00000200'
+    }
 
     optionsSAR_operacion = {
         Merchant: '27372',
@@ -61,9 +54,8 @@ class TodopagoController < ApplicationController
         CURRENCYCODE:'32',
         AMOUNT:'2',
         EMAILCLIENTE:'nicolas.pickelny@increasecard.com'
-
     }
-    byebug
+
     response = connector.sendAuthorizeRequest(optionsSAR_comercio,optionsSAR_operacion)
 
     render json: response
@@ -72,6 +64,10 @@ class TodopagoController < ApplicationController
   def auth
     u = TpUser.new("email@ejemplo.com", "password1")
     response = conector.getCredentials(u)
+  end
+
+  def payment_status
+    @status = params[:code]
   end
 
 end
