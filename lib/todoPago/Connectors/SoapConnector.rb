@@ -13,8 +13,8 @@ class SoapConnector < ServiceConnector
 	def sendAuthorizeRequest(options_commerce, optionsAuthorize)
 		result = ""
 		begin
-			message = {Security: options_commerce[:security],
-				Merchant: options_commerce[:MERCHANT],
+			message = {Security: options_commerce[:Security],
+				Merchant: options_commerce[:Merchant],
 				EncodingMethod: options_commerce[:EncodingMethod],
 				URL_OK: options_commerce[:URL_OK],
 				URL_ERROR: options_commerce[:URL_ERROR],
@@ -22,12 +22,12 @@ class SoapConnector < ServiceConnector
 				Session: options_commerce[:Session],
 				Payload: SoapConnector.buildPayload(optionsAuthorize)}
 			byebug
-			client = getClientSoap(@j_wsdls['Authorize'], $tenant + 'Authorize')
+			client = getClientSoap(@j_wsdls[:Authorize], $tenant + 'Authorize')
 
 			response = client.call(:send_authorize_request, message: message)
 
 			resp  = response.hash
-
+			byebug
 			result = resp.to_json
 		rescue Exception=>e
 			e.message
@@ -43,7 +43,7 @@ class SoapConnector < ServiceConnector
 			RequestKey: optionsAnwser[:RequestKey],
 			AnswerKey: optionsAnwser[:AnswerKey]};
 
-		client = getClientSoap(@j_wsdls['Authorize'], $tenant + 'Authorize')
+		client = getClientSoap(@j_wsdls[:Authorize], $tenant + 'Authorize')
 		response= client.call(:get_authorize_answer, message:message)
 		resp = response.hash
 		return resp.to_json
@@ -57,7 +57,7 @@ class SoapConnector < ServiceConnector
 			AMOUNT: refoundOptions[:AMOUNT]
 		}
 
-		client = getClientSoap(@j_wsdls['Authorize'], $tenant + 'Authorize')
+		client = getClientSoap(@j_wsdls[:Authorize], $tenant + 'Authorize')
 		response= client.call(:return_request, message:message)
 		resp = response.hash
 
