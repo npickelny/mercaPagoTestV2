@@ -78,7 +78,6 @@ class TodoPagoConector
       Merchant: refoundOptions[:Merchant],
       RequestKey: refoundOptions[:RequestKey],
     }
-    byebug
     client = TodoPagoConector.getClientSoap($j_wsdls['Authorize'], 'Authorize')
     response= client.call(:void_request, message:message)
     resp = response.hash

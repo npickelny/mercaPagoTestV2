@@ -2,12 +2,10 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/app/controllers/application_controller.rb" line="2" />
-    <bookmark url="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" line="92" />
+    <bookmark url="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" line="91" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b0ab35-0c06-4a11-a8f8-ade546b32011" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb" afterPath="$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" afterPath="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" afterPath="$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" />
     </list>
@@ -21,7 +19,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todopago_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todopago_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/todopago_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
@@ -37,8 +35,8 @@
       <file leaf-file-name="todo_pago_conector.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoapConnector.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SoapConnector.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="85">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,7 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@key = auth_response.response.public_key</find>
       <find>re</find>
       <find>rec</find>
       <find>rece</find>
@@ -119,12 +116,13 @@
       <find>@restEndPoint = @endPoint</find>
       <find>byeb</find>
       <find>ServiceReferences/Authorize.wsdl</find>
-      <find>b</find>
       <find>bye</find>
       <find>byebu</find>
-      <find>byebug</find>
       <find>Savon.client</find>
       <find>@j_wsdls['Authorize']</find>
+      <find>Security</find>
+      <find>b</find>
+      <find>byebug</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/lib/todoPago</dir>
@@ -177,10 +175,10 @@
         <option value="$PROJECT_DIR$/app/views/todopago/status.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todopago_controller.rb" />
-        <option value="$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" />
         <option value="$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb" />
-        <option value="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" />
+        <option value="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" />
       </list>
     </option>
   </component>
@@ -1019,12 +1017,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501013179534</updated>
       <workItem from="1501013180902" duration="67030000" />
-      <workItem from="1501708518256" duration="25213000" />
+      <workItem from="1501708518256" duration="25422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92243000" />
+    <option name="totallyTimeSpent" value="92452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1046,7 +1044,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18242122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19415449" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.70250523" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1432,22 +1430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -1472,6 +1454,22 @@
             <element signature="e#890#914#0" expanded="false" />
             <element signature="e#1999#2108#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

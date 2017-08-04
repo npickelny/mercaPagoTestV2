@@ -21,13 +21,11 @@ class SoapConnector < ServiceConnector
 				EMAILCLIENTE: options_commerce[:EMAILCLIENTE],
 				Session: options_commerce[:Session],
 				Payload: SoapConnector.buildPayload(optionsAuthorize)}
-			byebug
 			client = getClientSoap(@j_wsdls[:Authorize], $tenant + 'Authorize')
 
 			response = client.call(:send_authorize_request, message: message)
 
 			resp  = response.hash
-			byebug
 			result = resp.to_json
 		rescue Exception=>e
 			e.message
