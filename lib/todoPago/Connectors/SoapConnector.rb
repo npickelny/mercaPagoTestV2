@@ -7,7 +7,7 @@ require_relative "ServiceConnector"
 class SoapConnector < ServiceConnector
 	
 	def initialize(j_header_http, *args)
-		super(j_header_http, args)
+		super(j_header_http, args[0])
 	end
 
 	def sendAuthorizeRequest(options_commerce, optionsAuthorize)
@@ -21,7 +21,7 @@ class SoapConnector < ServiceConnector
 				EMAILCLIENTE: options_commerce[:EMAILCLIENTE],
 				Session: options_commerce[:Session],
 				Payload: SoapConnector.buildPayload(optionsAuthorize)}
-
+			byebug
 			client = getClientSoap(@j_wsdls['Authorize'], $tenant + 'Authorize')
 
 			response = client.call(:send_authorize_request, message: message)

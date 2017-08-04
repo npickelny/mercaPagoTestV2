@@ -60,10 +60,10 @@ class TodopagoController < ApplicationController
         OPERATIONID:'121452145214521452',
         CURRENCYCODE:'32',
         AMOUNT:'2',
-        EMAILCLIENTE:'cliente@mail.com'
+        EMAILCLIENTE:'nicolas.pickelny@increasecard.com'
 
     }
-
+    byebug
     response = connector.sendAuthorizeRequest(optionsSAR_comercio,optionsSAR_operacion)
 
     render json: response

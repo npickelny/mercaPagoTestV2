@@ -6,81 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b0ab35-0c06-4a11-a8f8-ade546b32011" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/todopago/tp_pos_backup3.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/.github/issue_template.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/DataProvider.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/DiscoverPaymentMethodsTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/GetAuthorizeAnswerTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/GetCredentialsTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/GetOperationsTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/MockClient.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/ReturnRequestTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/SendAuthorizeRequestTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/.last_run.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/.resultset.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/colorbox/loading_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/favicon_green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/favicon_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/favicon_yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/magnify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/assets/0.10.0/smoothness/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/test_validations.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/tests_coverage.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPagoConector.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Authorize.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Classes/user.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Connectors/RestConnector.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Connectors/ServiceConnector.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Connectors/SoapConnector.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/connection_exception.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/empty_field_exception.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/empty_field_password_exception.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/empty_field_user_exception.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/prueba.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Exceptions/response_exception.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/FraudControlValidation.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Operations.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/ServiceReferences/Authorize.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/ServiceReferences/EchoService.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/ServiceReferences/Operations.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/Validation/FraudControlValidation.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/config/postalCodes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/config/validations.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/prueba.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/todo_pago_conector.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/lib/user.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SDK-Ruby-master/TodoPago/coverage/.resultset.json.lock" afterPath="$PROJECT_DIR$/app/views/todopago/tp_pos_backup2.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/todopago.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/todopago.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/todopago_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/todopago_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb" afterPath="$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb" afterPath="$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb" afterPath="$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" afterPath="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,8 +25,8 @@
       <file leaf-file-name="todopago_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/todopago_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="401">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,8 +35,8 @@
       <file leaf-file-name="todo_pago_conector.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="-108">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,8 +45,28 @@
       <file leaf-file-name="SoapConnector.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="432">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConnector.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestConnector.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -183,8 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>check</find>
-      <find>chec</find>
       <find>mercad</find>
       <find>received_auth</find>
       <find>@key = auth_response.response.public_key</find>
@@ -201,15 +149,20 @@
       <find>issue</find>
       <find>user</find>
       <find>pry</find>
-      <find>b</find>
       <find>bywe</find>
       <find>byw</find>
-      <find>bye</find>
       <find>p</find>
       <find>pr</find>
       <find>prod</find>
       <find>pro</find>
       <find>prd</find>
+      <find>@restEndPoint = @endPoint</find>
+      <find>byeb</find>
+      <find>ServiceReferences/Authorize.wsdl</find>
+      <find>b</find>
+      <find>bye</find>
+      <find>byebu</find>
+      <find>byebug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,8 +203,6 @@
         <option value="$PROJECT_DIR$/app/controllers/registration_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/lib/todoPago/tp_user.rb" />
-        <option value="$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb" />
-        <option value="$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" />
         <option value="$PROJECT_DIR$/lib/todoPago/Exceptions/response_exception.rb" />
         <option value="$PROJECT_DIR$/app/views/todopago/tp_pos_backup3.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todopago/tp_pos_backup2.erb" />
@@ -259,6 +210,10 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todopago/tp_pos_backup.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb" />
+        <option value="$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb" />
+        <option value="$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb" />
+        <option value="$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todopago_controller.rb" />
       </list>
     </option>
@@ -329,15 +284,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="todoPago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="todopago" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoPago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServiceReferences" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoPago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connectors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadoPagoTestv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,112 +361,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="payment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mercadoPagoTestv2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1070,12 +973,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501013179534</updated>
       <workItem from="1501013180902" duration="67030000" />
-      <workItem from="1501708518256" duration="14023000" />
+      <workItem from="1501708518256" duration="21444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81053000" />
+    <option name="totallyTimeSpent" value="88474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1090,14 +993,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089770354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.089770354" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11719182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18242122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50417536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1410,26 +1313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/todoPago/Exceptions/response_exception.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1466,14 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1498,26 +1377,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="36">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/RestConnector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/SoapConnector.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="432">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoPago/Connectors/ServiceConnector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoPago/todo_pago_conector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todopago_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="401">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>

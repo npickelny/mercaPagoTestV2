@@ -8,11 +8,14 @@ require_relative "../Exceptions/response_exception"
 class RestConnector < ServiceConnector
 
 	def initialize(j_header_http, *args)
-		super(j_header_http, args)
+		super(j_header_http, args[0])
 
 		# atributos
 		@restEndPoint = @endPoint + $tenant + $restAppend
 		@credentialsEndPoint = @endPoint + $restAppend
+		puts '----------- ATRIBS-----------------'
+		puts @restEndPoint
+		puts @credentialsEndPoint
 	end
 
 	def discoverPaymentMethods()
