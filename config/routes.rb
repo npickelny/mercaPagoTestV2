@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   get  'registration/permit', :to => 'registration#permit'
   get 'registration/authorize', :to => 'registration#authorize'
+  get 'todo_pago/send_auth_req', to: 'todo_pago#send_auth_req'
 end

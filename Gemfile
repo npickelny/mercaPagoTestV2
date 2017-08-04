@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
+gem 'rest-client', '~> 1.8.0'
+gem 'savon', '~> 2.8.1'
 
 
 # Use Puma as the app server
